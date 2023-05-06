@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS</title>
+    <link rel="stylesheet" href="latihan.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <style>
+        p {
+            color: grey;
+            font-size: 24px;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .paraf {
+            color: black;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        #satu, #dua, .coba {
+            color: salmon;
+        }
+
+        .test {
+            text-align: center;
+        }
+
+        .bg-kuning {
+            background-color: yellow;
+            font-family: sign;
+        }
+
+        /* Pseudo class*/
+        .bg-kuning:hover {
+            background-color: goldenrod;
+            font-size: 30px;
+        }
+
+        li:active {
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- metode inline -->>
+    <h1 class="bg-kuning"style="color: red;">Hallo Dunia</h1>
+
+    <!-- Internal -->
+    <p>Wellcome to my side</p>
+    <p class="paraf">Ini Paragraf 2</p>
+    <p class="paraf">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p class="coba">ini apa aku gak tau</p>
+    
+    <ul>
+        <li id="satu">satu</li>
+        <li id="dua">dua</li>
+        <li>tiga</li>
+    </ul>
+
+    <!-- External -->
+    <a href="#">link</a>
+    <p class="ax">Ini paraf nya ke paraf</p>
+
+    <p class="paraf test bg-kuning">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ratione mollitia cupiditate ipsam laboriosam error dolorem magnam. Saepe quaerat optio maxime numquam magnam velit similique, porro nostrum dignissimos quas! Laboriosam!</p>
+</body>
+</html>
