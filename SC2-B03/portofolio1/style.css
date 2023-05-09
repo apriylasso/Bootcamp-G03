@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #7ADAE8 0%, #0BA1DD 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    padding: 20px 5%;
+    z-index: 999;
+}
+
+h1, ul, li, p {
+    display: inline-block;
+    color: #ffff;
+}
+
+h1 {
+    margin-right: 110px;
+    font-size: 48px;
+    font-weight: 700px;
+}
+
+li {
+    margin: auto;
+    margin-right: 53px;
+    font-size: 24px;
+    font-weight: 300px;
+}
+
+.container {
+    margin-top: 220px;
+    display: flex;
+    padding: 50px 5%;
+}
+
+.s-kiri {
+    display: inline-block;
+    width: 50%;
+}
+
+.s-kiri .title {
+    margin-top: 42px;
+    font-size: 90px;
+    font-weight: 700px;
+    color: #ffff;
+}
+
+p {
+    margin-top: 14px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.s-kiri button {
+    width: 227px;
+    height: 61px;
+    border-color: #ffff;
+    border-radius: 8px;
+    margin-top: 59px;
+    margin-right: 16px;
+}
+
+.chatme {
+    background-color: #ffff;
+    font-size: 24px;
+    color: #0BA1DD;
+    border: #ffff;
+}
+
+.more {
+    background: none;
+    border: 3px solid #FFFFFF;
+    font-size: 24px;
+    color: #ffff;
+}
+
+.s-kanan {
+    width: 50%;
+}
+
