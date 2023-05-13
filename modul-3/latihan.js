@@ -1,1 +1,1 @@
-console.log("Hallo Dunia")
+console.log("Hallo Dunia - External")
